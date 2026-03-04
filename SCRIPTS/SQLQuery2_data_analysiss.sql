@@ -7,7 +7,7 @@
 
 -- 1. Count the total number of sales records.
  
- SELECT * 
+ SELECT COUNT(*) AS number_of_sales
  FROM pc_sales_data;
 
 -- 2. Count the number of sales per Continent.
